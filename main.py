@@ -70,7 +70,7 @@ class RegisterTest(unittest.TestCase):
         password_confirmation_field = driver.find_element(By.NAME, 'password2')
         
         data_nama_lengkap='admin1234'
-        data_email= 'admin1235@gmail.com'
+        data_email= 'admin1234@gmail.com'
         data_password = 'mysqladmin'
         data_password_confirmation = 'mysqladmin'
         
@@ -106,7 +106,7 @@ class TambahMapel(unittest.TestCase):
         mini_description_field = driver.find_element(By.NAME, 'mini_description')
         save_field = driver.find_element(By.NAME, '_save')
        
-        data_mapel ="Bahasa I"
+        data_mapel ="Fisika"
         nama_mapel_field.send_keys(data_mapel)
         mini_description_field.send_keys("ini deskripsi")
         save_field.send_keys(Keys.RETURN)
