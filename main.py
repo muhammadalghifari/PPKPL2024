@@ -91,7 +91,7 @@ class TambahMapel(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.get('https://fuatanshori.com/masuk/')
 
-    # --
+    # ---
     def test_tambah_mapel_sukses(self):
         driver = self.driver
         email_field = driver.find_element(By.NAME, 'email')
